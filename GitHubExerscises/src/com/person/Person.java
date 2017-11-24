@@ -3,6 +3,15 @@ package com.person;
 public class Person {
 	private String name;
 	private int age;
+	private int address;
+
+	public int getAddress() {
+		return address;
+	}
+
+	public void setAddress(int address) {
+		this.address = address;
+	}
 
 	public String getName() {
 		return name;
