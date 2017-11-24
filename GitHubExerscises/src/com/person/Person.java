@@ -5,6 +5,7 @@ public class Person {
 	private int age;
 	private String address;
 
+	private String street;
 
 	public String getName() {
 		return name;
