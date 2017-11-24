@@ -3,13 +3,13 @@ package com.person;
 public class Person {
 	private String name;
 	private int age;
-	private int address;
+	private String address;
 
-	public int getAddress() {
+	public String getAddress() {
 		return address;
 	}
 
-	public void setAddress(int address) {
+	public void setAddress(String address) {
 		this.address = address;
 	}
 
